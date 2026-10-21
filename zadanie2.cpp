@@ -4,7 +4,7 @@
 #include <map>
 
 int main() {
-   std::vector<int> numbers = {1, 2, 3, 4, 5, 6, 7};
+   std::vector<int> numbers = {1, 2, 3, 2, 4, 5, 1, 6, 3, 7};
 
    std::map<int, int> counts;
    for (int num : numbers) {
